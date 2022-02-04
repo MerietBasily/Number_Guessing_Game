@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <div class="textbox">
+    <h1>GUESS MY NUMBER</h1>
+   <p>Guess The Number Between 1 And 100</p>
+   </div>
+    <div class="container1">
+    <div class="bigBox">
+        <div class="scoreScreen">
+            <h5 id="Score" class="screen">Score:10 <br> High score:0</h5>
+        </div>
+        <div class="resetscreen">
+            <button id ="resetbtn"class="reset">Reset</button>
+        </div>
+        <div class="babyBox">
+           <div> <img id="image"class="manThinking" src="images\Man Thinking.png" alt=""></div>
+            <input type="text" placeholder="Guess a Number" id="guess"><br>
+            <button id="my_btn">Check</button>
+            <p id="message1">Guess a Number</p>
+        </div>
+        <div id="message2"  class="guessHistory">Guess History</div>
+    </div>
+</div>
+<!--<div class="container1">
+    <h1>GUESS MY NUMBER</h1>
+    <p>Guess The Number Between 1 And 100</p>
+    <div class="bigBox">
+        <div class="babyBox">
+           <div> <img class="manThinking" src="images\youWin.png" alt=""></div>
+        <h3>Congratulation</h3>
+        <p>Your guess correct 41 is my secret number </p>
+        <h4>Your Score:3 </h4>
+        <h5>Best:3</h5>
+        <div>
+            <button onclick="Check()"id="my_btn">Play Again</button>
+        </div>
+        <div id="message2"  class="guessHistory">Guess History</div>
+    </div>
+</div>-->
+<!--<div class="container1">
+    <h1>GUESS MY NUMBER</h1>
+    <p>Guess The Number Between 1 And 100</p>
+    <div class="bigBox">
+        <div class="scoreScreen">
+            <h5 id="Score" class="screen">Score:10 <br> High score:0</h5>
+        </div>
+        <div class="babyBox">
+           <div> <img class="manThinking" src="images\GameOver.png" alt=""></div>
+           <h4>Unfortunately You Lost the Game</h4>
+           <p>Don't give up and Try Again.you can win next time.</p>
+           <p>My number was:66</p>
+            <button onclick="Check()"id="my_btn">Try Again</button>
+        </div>
+        <div id="message2"  class="guessHistory">Guess History</div>
+    </div>
+</div>-->
+</body>
+<script src="guessingNumber.js"></script>
+</html>

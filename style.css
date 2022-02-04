@@ -1,0 +1,145 @@
+body{
+    background-color: #add8e6;
+}
+.container1{
+    position: relative;
+    display: flex;
+    justify-items: center;
+
+}
+.textbox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: serif;
+    text-align: center;
+}
+
+.bigBox{
+  height: 700px;
+    width: 650px ;
+    background-color: lightsteelblue;
+display: flex;
+flex-direction: column;
+  margin-left: 28%;
+border-radius: 6%;
+}
+.scoreScreen{
+    position: relative;
+    height: 25%;
+    width: 40% ;
+   top: 2%;
+   left: 3%;
+    border-radius: 15px;
+    background-color: lightslategrey;
+    text-align: center;
+
+
+}
+.screen{
+padding-top: 10%;
+  text-align: center;
+  margin: 0%;
+}
+.resetscreen{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: 14%;
+    width: 15% ;
+left: 83%;
+bottom: 10%;
+
+
+}
+.reset{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: lightslategrey;
+    border-radius: 15%
+}
+.babyBox{
+    height: 70%;
+    width: 60% ;
+    background-color:lightgrey;
+    position: relative;
+    bottom: 4%;
+     left: 20%;
+display: flex;
+flex-direction: column;
+border-radius: 13px;
+align-items: center;
+
+}
+.manThinking{
+position: relative;
+height: 60%;
+width: 70%;
+border-radius: 10%;
+
+padding-left: 25%;
+
+
+}
+input[type="text"]{
+    width: 130px;
+    font-weight: 700;
+  padding: 2%;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    bottom: 22%;
+}
+button{
+    width: 20%;
+    padding: 12px 0;
+    background-color: lightslategrey;
+    color: white;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 15px;
+    outline: none;
+    position: relative;
+    bottom: 20%;
+
+
+}
+/*Anmation for the reset and check*/
+#my_btn:hover {background-color: #3e8e41}
+
+#my_btn:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+#resetbtn:hover {background-color: #3e8e41}
+
+#resetbtn:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+.guessHistory{
+    position: relative;
+    height: 15%;
+    width: 44% ;
+left: 28%;
+  bottom: 2%;
+    border-radius: 15px;
+    background-color: lightslategrey;
+    text-align: center;
+    margin: 0%;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+
+  }
+
+#message1{
+    position: relative;
+    bottom: 52%;
+
+}
+.hide{
+  visibility: hidden;
+}
